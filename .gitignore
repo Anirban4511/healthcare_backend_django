@@ -1,0 +1,53 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Environment variables
+.env
+
+# Django migrations (optional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+
+# PostgreSQL credentials file
+.pgpass
+
+# Logs
+*.log
+
+# Media and static files
+media/
+staticfiles/
+static/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Python distribution
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
