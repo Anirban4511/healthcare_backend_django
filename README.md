@@ -34,8 +34,10 @@ healthcare_backend/
 │   ├── urls.py
 │   ├── wsgi.py
 │   └── asgi.py
+├── .gitignore
 ├── manage.py
 ├── requirements.txt
+├── .env.example
 ```
 
 ## Setup Instructions
